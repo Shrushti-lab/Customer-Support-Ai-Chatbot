@@ -1,0 +1,8 @@
+# This project uses a Node.js (Express + React) stack.
+# See package.json for the full list of dependencies.
+#
+# If you were to port the SupportEngine logic to Python Flask:
+# Flask==3.0.0
+# flask-cors==4.0.0
+# python-dotenv==1.0.0
+# google-generativeai==0.3.1

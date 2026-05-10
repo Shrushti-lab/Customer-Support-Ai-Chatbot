@@ -1,4 +1,4 @@
-# SupportAI - Customer Support Bot
+# SupportAI - Professional Customer Support Bot
 
 A robust, enterprise-grade customer support chatbot built with **Express (Node.js)** and **React**. This application features a sophisticated "Hardware-style" dark-mode interface and an intelligent support engine.
 
@@ -28,9 +28,9 @@ A robust, enterprise-grade customer support chatbot built with **Express (Node.j
    ```
 
 3. **Environment Variables**:
-   Create a `.env` file in the root and add your API key (optional for enhanced AI fallback):
+   Create a `.env` file in the root and add your Gemini API key (optional for enhanced AI fallback):
    ```env
-   API_KEY=your_key_here
+   GEMINI_API_KEY=your_key_here
    ```
 
 4. **Run the application**:
@@ -50,3 +50,5 @@ The core logic resides in `server.ts`. It uses a pattern-matching system to iden
 - `src/App.tsx`: The full Chat UI implemented with React and Tailwind.
 - `metadata.json`: Application metadata for platform integration.
 
+---
+*Developed for Google AI Studio Build.*
